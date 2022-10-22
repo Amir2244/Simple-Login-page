@@ -8,6 +8,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -273,7 +281,7 @@ form.signup-form {
 @media (max-width:870px) {
     .container {
         max-height: 800px;
-        height: 100vh
+        height: 100%;
     }
 
     .container::before {
@@ -300,9 +308,9 @@ form.signup-form {
         transition: 1s 0.8s ease-in-out;
     }
 
-    .right-panel.content,
-    .right-panel.image {
-        transform: translateX(300px);
+    .right-panel .content,
+    .right-panel .image {
+        transform: translateY(300px);
     }
 
     .panel {
@@ -382,7 +390,24 @@ form.signup-form {
     }
 
     .container.sign-up-mode::before {
-        bottom: 28%;
+        bottom: 30%;
         left: 50%;
+    }
+}
+
+@media (max-height:650px) {
+
+    .right-panel .content,
+    .right-panel .image {
+        display: none;
+    }
+
+    .container::before {
+        display: none;
+    }
+
+    .left-panel .image,
+    .left-panel .content {
+        display: none;
     }
 }
