@@ -402,7 +402,7 @@ form.signup-form {
     }
 
     .container::before {
-       opacity:0;
+       display:none;
     }
     .right-panel .image,
     .right-panel .content {
