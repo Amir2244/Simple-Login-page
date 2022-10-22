@@ -397,10 +397,7 @@ form.signup-form {
 
 @media (max-height:400px) {
 
-    .right-panel .content,
-    .right-panel .image {
-        display: none;
-    }
+    
 
     .container::before {
         display: none;
