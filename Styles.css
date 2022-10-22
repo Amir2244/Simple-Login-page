@@ -395,7 +395,7 @@ form.signup-form {
     }
 }
 
-@media (max-height:650px) {
+@media (max-height:600px) {
 
     .right-panel .content,
     .right-panel .image {
