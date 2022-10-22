@@ -400,7 +400,7 @@ form.signup-form {
     
 
     .container::before {
-        display: none;
+       opacity:0;
     }
 
     .left-panel .image,
