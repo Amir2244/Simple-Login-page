@@ -413,4 +413,9 @@ form.signup-form {
     .left-panel .content {
         display: none;
     }
+    .container.sign-up-mode .right-panel .image,
+    .container.sign-up-mode .right-panel .content{
+        display:none;}
+    .signin-signup{
+        height:70%;}
 }
