@@ -397,11 +397,13 @@ form.signup-form {
 
 @media (max-height:400px) {
 
-    .container{height:100vh;}
+    .container{height:400px;}
 
     .container::before {
        opacity:0;
     }
+    .right-panel .image,
+    .right-panel .content{display:none;} 
 
     .left-panel .image,
     .left-panel .content {
