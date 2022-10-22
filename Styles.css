@@ -398,7 +398,7 @@ form.signup-form {
 @media (max-height:400px) {
 
     .container{
-        height:350px;
+        height:420px;
     }
 
     .container::before {
