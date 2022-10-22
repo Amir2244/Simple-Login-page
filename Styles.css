@@ -397,13 +397,17 @@ form.signup-form {
 
 @media (max-height:400px) {
 
-    .container{height:400px;}
+    .container{
+        height:350px;
+    }
 
     .container::before {
        opacity:0;
     }
     .right-panel .image,
-    .right-panel .content{display:none;} 
+    .right-panel .content {
+        display:none;
+    } 
 
     .left-panel .image,
     .left-panel .content {
